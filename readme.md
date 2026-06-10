@@ -7,12 +7,15 @@ A simple RPG battle system written in C++ demonstrating core OOP concepts.
 - Warrior class with armor and bonus damage
 - Mage class with mana and magic shield
 - Turn-based battle system
+- Memory management with unique_ptr
 
 ## Concepts Covered
 - Inheritance
 - Polymorphism
 - Encapsulation
 - Virtual functions
+- Virtual destructor
+- Smart pointers (unique_ptr)
 
 ## How to Run
 g++ main.cpp Character.cpp Warrior.cpp Mage.cpp -o main
