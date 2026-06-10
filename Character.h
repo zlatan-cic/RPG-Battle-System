@@ -20,4 +20,6 @@ public:
   virtual int getDefence();
   void takeDamage(int damage);
 
+  virtual ~Character() {}
+
 };
