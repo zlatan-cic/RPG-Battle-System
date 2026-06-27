@@ -7,12 +7,12 @@ void battle(Character& a, Character& b)
 {
   while(a.isAlive() && b.isAlive())
   {
-    a.attack(b);
+    a.update(b);
     b.printStatus();
 
     if(!b.isAlive()) break;
 
-    b.attack(a);
+    b.update(a);
     a.printStatus();
   }
 

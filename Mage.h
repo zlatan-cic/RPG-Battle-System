@@ -16,4 +16,6 @@ class Mage:public Character
   int getMana();
   int getMagicShield();
 
+  void update(Character& target);
+
 };

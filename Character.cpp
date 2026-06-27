@@ -31,6 +31,11 @@ int Character::getDefence()
 {
   return 0;
 }
+///
+void Character::update(Character& target)
+{
+  attack(target);
+}
 
 void Character::takeDamage(int damage) {
   hp -= damage;

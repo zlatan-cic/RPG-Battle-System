@@ -17,6 +17,8 @@ void Warrior::attack(Character& target)
           << " " << damage << " damage!\n";
 }
 
+
+
 void Warrior::printStatus()
 {
   std::cout << name << " | HP: " << hp << '\n';

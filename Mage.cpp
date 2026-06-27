@@ -23,6 +23,12 @@ void Mage::attack(Character& target)
   }
 }
 
+void Mage::update(Character& target)
+{
+  attack(target);
+}
+
+
 void Mage::printStatus()
 {
     std::cout << name << " | HP: " << hp << " | Mana: " << mana << "\n";
