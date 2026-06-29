@@ -16,6 +16,7 @@ public:
   virtual void printStatus();
   bool isAlive();
   std::string getName();
+  int getHealth();
 //
   virtual int getDefence();
   void takeDamage(int damage);

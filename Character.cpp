@@ -37,6 +37,10 @@ void Character::update(Character& target)
   attack(target);
 }
 
+int Character::getHealth()
+{
+  return hp;
+}
 void Character::takeDamage(int damage) {
   hp -= damage;
   if(hp < 0) hp = 0;
